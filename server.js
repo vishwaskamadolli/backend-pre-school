@@ -34,6 +34,7 @@ app.use("/api", require("./routes/admin/casteCategoryRoutes"));
 app.use("/api", require("./routes/admin/teacherRoutes"));
 app.use("/api", require("./routes/admin/subjectRoutes"));
 app.use("/api", require("./routes/admin/attandanceRoutes"));
+app.use("/api", require("./routes/loginRoutes"))
 
 
 
